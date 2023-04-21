@@ -15,7 +15,7 @@ export const menu = new Menu('menu')
           505211008,
           `Даша заюзала купон. Осталось ${coupon.coupons}`
         )
-        return ctx.reply(`Вызов принят. Осталось ${coupon.coupons} из 10`)
+        return ctx.reply(`Вызов принят🥰. Осталось ${coupon.coupons} из 10`)
       } else {
         return ctx.reply('Твои купоны закончились, оставь мой язык в покое')
       }
@@ -23,7 +23,7 @@ export const menu = new Menu('menu')
       return ctx.reply(`error`)
     }
   })
-  .text('Отмена', (ctx: Context) => ctx.reply('Очкошница'))
+  .text('Отмена', (ctx: Context) => ctx.reply('Очкошница 😆'))
 
 export async function takeCuni(ctx: Context) {
   // Send a question with a menu of two buttons
